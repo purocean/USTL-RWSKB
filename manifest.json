@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "UstlRwskb-mksyl-YangZi",
+    "description": "USTL人文社科部网上答题测试-马克思原理",
+    "version": "1.0",
+
+    "background": {
+        "scripts": ["jquery-2.0.0.min.js", "background.js"]
+    },
+
+    "permissions": ["tabs", "http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx"],
+
+    "page_action":{
+          "default_icon": {
+               "19": "logo.png"
+          },
+          "default_title": "辽宁科技大学人文社科部答题",
+          "default_popup": "index.html"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx"],
+        "js": ["jquery-2.0.0.min.js", "dat.js", "content.js"]
+      }
+    ],
+
+    "icons": {"128": "logo.png"}
+
+}

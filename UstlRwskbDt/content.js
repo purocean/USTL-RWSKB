@@ -13,24 +13,12 @@ $(document).ready(function(){
                 '__EVENTTARGET': '',
                 '__EVENTARGUMENT': '',
                 '__LASTFOCUS': '',
-                '__EVENTVALIDATION': '/wEWFgLJm/D1CwKLwe3ADwKFroutAwKFro+tAwKFrrOtAwKcrqOtAwLww6rJCgKLrcjeBAK68e6eBgLV2ow0AtzooZ4DAvfRv7MNAqaW5vMOAsH/g4kJAsiNmfMLAuP2togGAoutiPYGAout9JoOAoutsKwIAoutnNEPAout2OIJArursYYIhVejyoUrL+WwMaJRyMJkQhK/Atc=',
-                '__VIEWSTATE': '/wEPDwUKLTYyNTIxMTk5MA9kFgICAw9kFgwCAQ8PFgIeBFRleHQFDDEyMDEyMzQwNDAwOGRkAgMPDxYCHwAFBueOi+a0i2RkAgUPDxYCHwAFA+eUt2RkAgcPDxYCHghJbWFnZVVybAUTfi9JbWFnZS9rZW11XzAzLmdpZmRkAgkPDxYCHgdWaXNpYmxlaGQWAgIBDxAPFgIeB0NoZWNrZWRnZGRkZAILDw8WAh8CZ2QWBAIDDxAPFgYeDURhdGFUZXh0RmllbGQFBXRpdGxlHg5EYXRhVmFsdWVGaWVsZAUCaWQeC18hRGF0YUJvdW5kZ2QQFQQY5Lit5Zu96L+R546w5Luj5Y+y57qy6KaBIemprOWFi+aAneS4u+S5ieWfuuacrOWOn+eQhuamguiuujzmr5vms73kuJzmgJ3mg7PkuI7kuK3lm73nibnoibLnpL7kvJrkuLvkuYnnkIborrrkvZPns7vmpoLorroh5oCd5oOz6YGT5b635L+u5YW75LiO5rOV5b6L5Z+656GAFQQCMjECMjICMjMCOTcUKwMEZ2dnZxYBAgJkAgUPEA8WBh8EBQV0aXRsZR8FBQJpZB8GZ2QQFQ8J56ys5LiA56ugCeesrOS6jOeroAnnrKzkuInnq6AJ56ys5Zub56ugCeesrOS6lOeroAnnrKzlha3nq6AJ56ys5LiD56ugCeesrOWFq+eroAnnrKzkuZ3nq6AJ56ys5Y2B56ugDOesrOWNgeS4gOeroAznrKzljYHkuoznq6AM56ys5Y2B5LiJ56ugDOesrOWNgeWbm+eroAznrKzljYHkupTnq6AVDwIzNAIzNgIzNwIzOAIzOQI0MAI0MQI0MgI0MwI0NAI0NQI0NgI0NwI0OAI0ORQrAw9nZ2dnZ2dnZ2dnZ2dnZ2dkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WEAUPQ2hlY2tCb3hMaXN0MSQwBQ9DaGVja0JveExpc3QxJDEFD0NoZWNrQm94TGlzdDEkMgUPQ2hlY2tCb3hMaXN0MSQzBQ9DaGVja0JveExpc3QxJDQFD0NoZWNrQm94TGlzdDEkNQUPQ2hlY2tCb3hMaXN0MSQ2BQ9DaGVja0JveExpc3QxJDcFD0NoZWNrQm94TGlzdDEkOAUPQ2hlY2tCb3hMaXN0MSQ5BRBDaGVja0JveExpc3QxJDEwBRBDaGVja0JveExpc3QxJDExBRBDaGVja0JveExpc3QxJDEyBRBDaGVja0JveExpc3QxJDEzBRBDaGVja0JveExpc3QxJDE0BRBDaGVja0JveExpc3QxJDE0oyndRXiGpKDK+FCaJ/pWzheG5uo=',
-                'ddlKm': 23, //毛概
+                '__EVENTVALIDATION': '/wEWCgK2vMbjDQKLwe3ADwKFroutAwKFro+tAwKFrrOtAwKcrqOtAwLww6rJCgKLrcjeBAK68e6eBgK7q7GGCH/hrmJuitwyTZj2mvaKCbo/Cvy1',
+                '__VIEWSTATE': '/wEPDwUKLTYyNTIxMTk5MA9kFgICAw9kFgwCAQ8PFgIeBFRleHQFDDEyMDEyMzQwNDAwOGRkAgMPDxYCHwAFBueOi+a0i2RkAgUPDxYCHwAFA+eUt2RkAgcPDxYCHghJbWFnZVVybAUTfi9JbWFnZS9rZW11XzAzLmdpZmRkAgkPDxYCHgdWaXNpYmxlaGQWAgIBDxAPFgIeB0NoZWNrZWRnZGRkZAILDw8WAh8CZ2QWBAIDDxAPFgYeDURhdGFUZXh0RmllbGQFBXRpdGxlHg5EYXRhVmFsdWVGaWVsZAUCaWQeC18hRGF0YUJvdW5kZ2QQFQQY5Lit5Zu96L+R546w5Luj5Y+y57qy6KaBIemprOWFi+aAneS4u+S5ieWfuuacrOWOn+eQhuamguiuujzmr5vms73kuJzmgJ3mg7PkuI7kuK3lm73nibnoibLnpL7kvJrkuLvkuYnnkIborrrkvZPns7vmpoLorroh5oCd5oOz6YGT5b635L+u5YW75LiO5rOV5b6L5Z+656GAFQQCMjECMjICMjMCOTcUKwMEZ2dnZxYBZmQCBQ8QDxYGHwQFBXRpdGxlHwUFAmlkHwZnZBAVAwbkuIrnvJYG5Lit57yWBuS4i+e8lhUDAjU0AjU1AjU2FCsDA2dnZ2RkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBQ9DaGVja0JveExpc3QxJDAFD0NoZWNrQm94TGlzdDEkMQUPQ2hlY2tCb3hMaXN0MSQyBQ9DaGVja0JveExpc3QxJDLkupfaJlbVLhaTWmf1QKvalkXi1Q==',
+                'ddlKm': 21, //近代史
                 'CheckBoxList1$0': 'on',
                 'CheckBoxList1$1': 'on',
                 'CheckBoxList1$2': 'on',
-                'CheckBoxList1$3': 'on',
-                'CheckBoxList1$4': 'on',
-                'CheckBoxList1$5': 'on',
-                'CheckBoxList1$6': 'on',
-                'CheckBoxList1$7': 'on',
-                'CheckBoxList1$8': 'on',
-                'CheckBoxList1$9': 'on',
-                'CheckBoxList1$10': 'on',
-                'CheckBoxList1$11': 'on',
-                'CheckBoxList1$12': 'on',
-                'CheckBoxList1$13': 'on',
-                'CheckBoxList1$14': 'on',
                 'Button2'        : '开始考试'
             },
         })
@@ -143,8 +131,10 @@ $(document).ready(function(){
 
     var fag = '-1';
     while(fag == '-1'){
-        fag =  prompt('选择答题内容\n\n0:马克思原理\n1:毛概', '0');
+        fag =  prompt('选择答题内容\n\n0:马克思原理\n1:毛概\n2:近代史', '0');
     }
+
+    console.log(_ex_jds_data__.split('|'));
 
     if(fag == '0'){
         // 马克思
@@ -152,6 +142,9 @@ $(document).ready(function(){
     }else if(fag == '1'){
         // 毛概
         doWork(_ex_mg_data__.split('|'));
+    }else if(fag == '2'){
+        // 近代史
+        doWork(_ex_jds_data__.split('|'));
     }
 
     $('#___qrcode').click(function(){

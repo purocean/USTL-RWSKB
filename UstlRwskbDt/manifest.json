@@ -8,7 +8,7 @@
         "scripts": ["jquery-2.0.0.min.js", "background.js"]
     },
 
-    "permissions": ["tabs", "http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx"],
+    "permissions": ["tabs", "http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx", "http://221.203.21.203:8000/*/rwskb1/Test/StartExam.aspx", "http://221.203.21.203:8000/*/rwskb1/Student/StartExam.aspx"],
 
     "page_action":{
           "default_icon": {
@@ -20,7 +20,7 @@
 
     "content_scripts": [
       {
-        "matches": ["http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx"],
+        "matches": ["http://202.199.240.215/rwskb1/Test/StartExam.aspx", "http://202.199.240.215/rwskb1/Student/StartExam.aspx", "http://221.203.21.203:8000/*/rwskb1/Test/StartExam.aspx", "http://221.203.21.203:8000/*/rwskb1/Student/StartExam.aspx"],
         "js": ["jquery-2.0.0.min.js", "dat_mks.js", "dat_mg.js", "dat_jds.js", "content.js"]
       }
     ],
